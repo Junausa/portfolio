@@ -3,6 +3,7 @@ title: Home
 
 header: true
 headerIsLarge: true
+headerHasSocials: true
 header1: Juna
 header2: Event Producer
 header3: Los Angeles, California
@@ -12,7 +13,6 @@ headerPfp: /juna.webp
 
 <script language='ts' setup>
 import EventList from ".vitepress/components/EventList.vue";
-import SocialsRow from ".vitepress/components/SocialsRow.vue";
 </script>
 
 ## Showreel
@@ -37,5 +37,3 @@ Producing your winning moments since 2016. Building live events of all sizes–f
 Creating live shows in the gaming and esports space with [Maelstrom Entertainment](https://mse.gg/).
 
 <p style="text-align: center; font-weight: 700; font-size: 1.2em">❖ CONTACT: <a href="mailto:juna@mse.gg">juna@mse.gg</a></p>
-
-<SocialsRow />

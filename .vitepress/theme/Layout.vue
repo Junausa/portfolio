@@ -8,9 +8,7 @@
         <div class="footer-tag">
             Producing your winning moments since 2016
         </div>
-        <div class="row">
-            <Mail /> <a href="mailto:juna@mse.gg">juna@mse.gg</a>
-        </div>
+        <SocialsRow style="font-weight: 400; font-size: .9em;" />
     </footer>
 </template>
 
@@ -18,7 +16,7 @@
 import { useData } from 'vitepress'
 import Header from "../components/Header.vue";
 import Nav from '../components/Nav.vue';
-import { Mail } from 'lucide-vue-next';
+import SocialsRow from '../components/SocialsRow.vue';
 
 // https://vitepress.dev/reference/runtime-api#usedata
 const { site, page, frontmatter } = useData();

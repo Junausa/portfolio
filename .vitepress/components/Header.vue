@@ -10,6 +10,8 @@
                 <hr v-if="frontmatter.header1 && (frontmatter.header2 || frontmatter.header3)" />
                 <h2 v-if="frontmatter.header2">{{ frontmatter.header2 }}</h2>
                 <div v-if="frontmatter.header3">{{ frontmatter.header3 }}</div>
+
+                <SocialsRow v-if="frontmatter.headerHasSocials" style="margin-top: 1rem; flex-direction: column;" />
             </div>
         </div>
     </header>
@@ -17,6 +19,7 @@
 
 <script lang="ts" setup>
 import { useData, withBase } from 'vitepress'
+import SocialsRow from './SocialsRow.vue';
 
 const { site, frontmatter } = useData();
 </script>

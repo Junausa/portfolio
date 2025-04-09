@@ -1,5 +1,9 @@
 <template>
     <div class="socials-row">
+        <a class="group" href="mailto:juna@mse.gg">
+            <Mail :size="24" /> 
+            juna@mse.gg
+        </a>
         <a class="group" href="https://twitter.com/junausa">
             <TwitterIcon :size="24"></TwitterIcon>
             JunaUSA
@@ -20,18 +24,17 @@
 </template>
 
 <script setup lang="ts">
-import { LinkedinIcon, TwitchIcon, TwitterIcon } from 'lucide-vue-next'; // why are these deprecated?
+import { LinkedinIcon, Mail, TwitchIcon, TwitterIcon } from 'lucide-vue-next'; // why are these deprecated?
 </script>
 
 <style lang="css" scoped>
 .socials-row {
     display: flex;
-    column-gap: 2rem;
-    row-gap: .25rem;
+    column-gap: 2.5rem;
+    row-gap: .35rem;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    font-size: 1.2rem;
     font-weight: 700;
 }
 
