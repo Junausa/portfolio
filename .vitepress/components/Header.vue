@@ -83,9 +83,7 @@ const { site, frontmatter } = useData();
 .pfp {
     padding: 1rem;
     padding-bottom: 0;
-    /* background-color: rgba(255,255,255, .1); */
-    background-color: #3ac3b2;
-
+    background-color: rgba(255,255,255, .1);
     aspect-ratio: 1 / 1;
     object-fit: contain;
     border-radius: 8px;
