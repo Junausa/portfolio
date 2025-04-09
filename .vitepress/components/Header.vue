@@ -85,4 +85,11 @@ h2 {
     font-size: 1.8rem;
     line-height: 1.2;
 }
+
+@media only screen and (max-width: 600px) {
+    #header-wrapper .text-container {
+        backdrop-filter: none;
+        background-color: rgba(0, 0, 0, .6);
+    }
+}
 </style>
