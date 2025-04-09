@@ -28,7 +28,7 @@ Provided comprehensive broadcast production, venue management, networking, and g
     { url: '/eggdog-invitational/eggdog-8.webp', alt: '' },
 ]" />
 
-Media Courtesty of [Kytaie](https://x.com/kytaie?s=21&t=YfMluDSN_0veIN_0BNR1Pg)
+Media Courtesy of [Kytaie](https://x.com/kytaie?s=21&t=YfMluDSN_0veIN_0BNR1Pg)
 
 <br>
 

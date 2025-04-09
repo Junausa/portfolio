@@ -25,7 +25,7 @@ import ImageViewer from "../.vitepress/components/ImageViewer.vue";
     { url: '/lacs-rivals/lacs-5.jpg', alt: 'LACS Rivals Player Stage' },
 ]" />
 
-Media Courtesty of [neptune.img](https://www.neptuneimg.com/about)
+Media Courtesy of [neptune.img](https://www.neptuneimg.com/about)
 
 <br>
 
