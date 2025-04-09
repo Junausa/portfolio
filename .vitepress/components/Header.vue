@@ -11,7 +11,7 @@
                 <h2 v-if="frontmatter.header2">{{ frontmatter.header2 }}</h2>
                 <div v-if="frontmatter.header3">{{ frontmatter.header3 }}</div>
 
-                <SocialsRow v-if="frontmatter.headerHasSocials" style="margin-top: 1rem; flex-direction: column;" />
+                <SocialsRow v-if="frontmatter.headerHasSocials" style="margin-top: 1rem;" :showME="false" iconsOnly />
             </div>
         </div>
     </header>

@@ -2,29 +2,40 @@
     <div class="socials-row">
         <a class="group" href="mailto:juna@mse.gg">
             <Mail :size="24" /> 
-            juna@mse.gg
+            <span v-if="!iconsOnly">juna@mse.gg</span>
         </a>
         <a class="group" href="https://twitter.com/junausa">
             <TwitterIcon :size="24"></TwitterIcon>
-            JunaUSA
+            <span v-if="!iconsOnly">JunaUSA</span>
         </a>
-        <a class="group" href="https://twitter.com/MeleeEveryday">
+        <a v-if="showME" class="group" href="https://twitter.com/MeleeEveryday">
             <TwitterIcon :size="24"></TwitterIcon>
-            MeleeEveryday
+            <span v-if="!iconsOnly">MeleeEveryday</span>
         </a>
-        <a class="group" href="https://www.twitch.tv/meleeeveryday">
+        <a v-if="showME" class="group" href="https://www.twitch.tv/meleeeveryday">
             <TwitchIcon :size="24"></TwitchIcon>
-            MeleeEveryday
+            <span v-if="!iconsOnly">MeleeEveryday</span>
         </a>
         <a class="group" href="https://www.linkedin.com/in/arjunacapulong/">
             <LinkedinIcon :size="24"></LinkedinIcon>
-            LinkedIn
+            <span v-if="!iconsOnly">LinkedIn</span>
         </a>
     </div>
 </template>
 
 <script setup lang="ts">
 import { LinkedinIcon, Mail, TwitchIcon, TwitterIcon } from 'lucide-vue-next'; // why are these deprecated?
+
+const props = defineProps({
+    showME: {
+        type: Boolean,
+        default: true
+    },
+    iconsOnly: {
+        type: Boolean,
+        default: false
+    }
+})
 </script>
 
 <style lang="css" scoped>
