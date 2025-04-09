@@ -1,4 +1,3 @@
 .vitepress/dist/*
-!.vitepress/dist/.gitkeep
 .vitepress/cache
 node_modules
