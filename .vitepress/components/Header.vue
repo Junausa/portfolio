@@ -2,12 +2,15 @@
     <header id="header-wrapper" :class="{ 'large': frontmatter.headerIsLarge }">
         <img class="bg-img" v-if="frontmatter.headerImg" :src="withBase(frontmatter.headerImg)" />
         <div class="text-container">
-            <img v-if="frontmatter.logo" :src="withBase(frontmatter.logo)" />
-            <h1 v-if="frontmatter.header1" :class="{ 'sr-only': frontmatter.logo }">{{ frontmatter.header1 }}</h1>
+            <img class="pfp" v-if="frontmatter.headerPfp" :src="withBase(frontmatter.headerPfp)" />
+            <div class="column">
+                <img v-if="frontmatter.logo" :src="withBase(frontmatter.logo)" />
+                <h1 v-if="frontmatter.header1" :class="{ 'sr-only': frontmatter.logo }">{{ frontmatter.header1 }}</h1>
 
-            <hr v-if="frontmatter.header1 && (frontmatter.header2 || frontmatter.header3)" />
-            <h2 v-if="frontmatter.header2">{{ frontmatter.header2 }}</h2>
-            <div v-if="frontmatter.header3">{{ frontmatter.header3 }}</div>
+                <hr v-if="frontmatter.header1 && (frontmatter.header2 || frontmatter.header3)" />
+                <h2 v-if="frontmatter.header2">{{ frontmatter.header2 }}</h2>
+                <div v-if="frontmatter.header3">{{ frontmatter.header3 }}</div>
+            </div>
         </div>
     </header>
 </template>
@@ -56,12 +59,18 @@ const { site, frontmatter } = useData();
     padding: 1.5rem 2.5rem;
     text-align: center;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    gap: .25rem;
+    gap: 3rem;
     border-radius: 8px;
     margin: 0 1rem;
     max-width: 45rem;
+}
+
+#header-wrapper .text-container .column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .25rem;
 }
 
 #header-wrapper .text-container img {
@@ -90,6 +99,8 @@ h2 {
     #header-wrapper .text-container {
         backdrop-filter: none;
         background-color: rgba(0, 0, 0, .6);
+        flex-direction: column;
+        gap: 0;
     }
 }
 </style>

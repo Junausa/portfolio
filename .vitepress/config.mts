@@ -4,5 +4,5 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Juna",
   description: "Event Producer | Los Angeles, CA",
-  base: "/juna-portfolio/"  //REMOVE THIS LINE WHEN DOMAIN IS READY
+  base: "/"
 })
