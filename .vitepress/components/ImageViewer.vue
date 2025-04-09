@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="viewer">
-            <img :src="props.images[imgIndex].url" :alt="props.images[imgIndex].alt ?? ''" />
+            <img :src="withBase(props.images[imgIndex].url)" :alt="props.images[imgIndex].alt ?? ''" />
             <button @click="prevImage" class="prev">
                 <ArrowLeftCircle :size="48" />
             </button>
@@ -18,6 +18,8 @@
 <script setup lang="ts">
 import { ArrowLeft, ArrowLeftCircle, ArrowRight, ArrowRightCircle } from 'lucide-vue-next';
 import { PropType, ref } from 'vue';
+import { withBase } from 'vitepress';
+
 
 const props = defineProps({
     images: {

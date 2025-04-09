@@ -1,8 +1,8 @@
 <template>
     <header id="header-wrapper" :class="{ 'large': frontmatter.headerIsLarge }">
-        <img class="bg-img" v-if="frontmatter.headerImg" :src="frontmatter.headerImg" />
+        <img class="bg-img" v-if="frontmatter.headerImg" :src="withBase(frontmatter.headerImg)" />
         <div class="text-container">
-            <img v-if="frontmatter.logo" :src="frontmatter.logo" />
+            <img v-if="frontmatter.logo" :src="withBase(frontmatter.logo)" />
             <h1 v-if="frontmatter.header1" :class="{ 'sr-only': frontmatter.logo }">{{ frontmatter.header1 }}</h1>
 
             <hr v-if="frontmatter.header1 && (frontmatter.header2 || frontmatter.header3)" />
@@ -13,7 +13,7 @@
 </template>
 
 <script lang="ts" setup>
-import { useData } from 'vitepress'
+import { useData, withBase } from 'vitepress'
 
 const { site, frontmatter } = useData();
 </script>

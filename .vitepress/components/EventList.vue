@@ -1,7 +1,7 @@
 <template>
     <div class="event-list">
-        <a v-for="event in eventsList" class="button event" :href="event.link">
-            <img :src="event.image" v-if="event.image" />
+        <a v-for="event in eventsList" class="button event" :href="withBase(event.link)">
+            <img :src="withBase(event.image)" v-if="event.image" />
             <div>{{ event.name }}</div>
         </a>
         
@@ -19,6 +19,7 @@
 <script setup lang="ts">
 import { ArrowDown, ArrowUp } from 'lucide-vue-next';
 import { computed, PropType, ref } from 'vue';
+import { withBase } from 'vitepress';
 
 const MAX_EVENTS_TO_SHOW = 5;
 

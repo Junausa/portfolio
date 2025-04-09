@@ -1,6 +1,6 @@
 <template>
     <nav id="top-nav">
-        <a href="/" class="nav-link">
+        <a :href="withBase('/')" class="nav-link">
             <div>{{ site.title }}</div>
         </a>
         <template v-if="page.title">
@@ -11,7 +11,7 @@
 </template>
 
 <script setup lang="ts">
-import { useData } from 'vitepress'
+import { useData, withBase } from 'vitepress'
 
 const { site, page, frontmatter } = useData();
 </script>
