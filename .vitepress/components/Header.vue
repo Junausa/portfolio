@@ -81,11 +81,13 @@ const { site, frontmatter } = useData();
 }
 
 .pfp {
-    padding: 1rem;
+    /* padding: 1rem;
     padding-bottom: 0;
     background-color: rgba(255,255,255, .1);
     aspect-ratio: 1 / 1;
     object-fit: contain;
+    border-radius: 8px; */
+    aspect-ratio: 1 / 1;
     border-radius: 8px;
 }
 
