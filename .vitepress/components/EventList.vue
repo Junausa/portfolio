@@ -1,16 +1,20 @@
 <template>
     <div class="event-list">
-        <a v-for="event in eventsList" class="button event" :href="withBase(event.link)">
-            <img :src="withBase(event.image)" v-if="event.image" />
-            <div>{{ event.name }}</div>
-        </a>
-        
-        <div v-if="events.length > MAX_EVENTS_TO_SHOW" class="button" @click="showingAll = !showingAll">
+        <div class="event-grid">
+            <a v-for="event in eventsList" class="button event" :href="withBase(event.link)">
+                <div v-if="event.banner" class="banner"
+                    :style="`background-image: url(\'${withBase(event.banner)}\');`" />
+                <img class="logo" :src="withBase(event.logo)" v-if="event.logo" />
+                <div :class="{ 'sr-only': event.logo }">{{ event.name }}</div>
+            </a>
+        </div>
+
+        <div v-if="events.length > MAX_EVENTS_TO_SHOW" class="button show-more" @click="showingAll = !showingAll">
             <template v-if="showingAll">
-                <ArrowUp /> Show Less
+                <ArrowUp :size="32" /> Show Less
             </template>
             <template v-else>
-                <ArrowDown /> Show All
+                <ArrowDown :size="32" /> Show All
             </template>
         </div>
     </div>
@@ -21,14 +25,15 @@ import { ArrowDown, ArrowUp } from 'lucide-vue-next';
 import { computed, PropType, ref } from 'vue';
 import { withBase } from 'vitepress';
 
-const MAX_EVENTS_TO_SHOW = 5;
+const MAX_EVENTS_TO_SHOW = 6;
 
 const props = defineProps({
     events: {
         type: Array as PropType<Array<{
             name: string,
             link: string,
-            image?: string
+            logo?: string,
+            banner?: string
         }>>,
         required: true
     }
@@ -46,6 +51,13 @@ const eventsList = computed(() => {
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    line-height: 1;
+}
+
+.event-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
 }
 
 .button {
@@ -60,37 +72,64 @@ const eventsList = computed(() => {
     text-transform: uppercase;
     user-select: none;
     text-decoration: none;
-    display: flex;
-    align-items: center;
-    gap: 2rem;
     filter: drop-shadow(0 0 0px black);
+    position: relative;
 }
 
 .button:hover {
-    background-color: white;
-    color: black;
-}
-
-.button:hover img {
-    filter: drop-shadow(0 0 12px black);
+    background-color: rgba(255, 255, 255, .3);
 }
 
 .event {
     font-size: 1.65em;
     min-height: 7.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 13rem;
+    overflow: hidden;
 }
 
-.event img {
+.event .logo {
     height: 5rem;
     width: auto;
     max-width: 15rem;
     object-fit: contain;
 }
 
+.event .banner {
+    height: 16rem;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    mask: linear-gradient(to top, transparent 0%, black 8rem);
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+.show-more {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
 @media only screen and (max-width: 600px) {
+    .event-grid {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
     .button {
         gap: 1.5rem;
         padding: 1rem 1rem;
+    }
+
+    .event {
+        padding-top: 13rem;
     }
 
     .event img {

@@ -6,7 +6,7 @@ logo: /lacs-rivals/logo.webp
 header1: LACS Rivals
 header2: Broadcast, Gear Sourcing, Talent Cues, Brand Activations, Set Design
 header3: 2024 - Los Angeles, California
-headerImg: /lacs-rivals/header.webp
+headerImg: /lacs-rivals/banner.webp
 ---
 
 <script language='ts' setup>

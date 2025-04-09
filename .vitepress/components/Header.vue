@@ -45,7 +45,7 @@ const { site, frontmatter } = useData();
     width: 100%;
     height: 100%;
     object-fit: cover;
-    filter: brightness(0.5);
+    filter: brightness(0.7);
     z-index: -1;
     mask: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 35%);
 }

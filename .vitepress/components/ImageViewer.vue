@@ -16,7 +16,7 @@
 </template>
 
 <script setup lang="ts">
-import { ArrowLeft, ArrowLeftCircle, ArrowRight, ArrowRightCircle } from 'lucide-vue-next';
+import { ArrowLeftCircle, ArrowRightCircle } from 'lucide-vue-next';
 import { PropType, ref } from 'vue';
 import { withBase } from 'vitepress';
 

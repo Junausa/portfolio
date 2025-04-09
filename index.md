@@ -20,10 +20,10 @@ import EventList from ".vitepress/components/EventList.vue";
 ## Events
 
 <EventList :events="[
-    { name: 'Battle Of BC 7', link: '/events/bobc7', image: '/bobc7/logo.webp' },
-    { name: 'Genesis X2', link: '/events/gx2', image: '/gx2/logo.webp' },
-    { name: 'LACS Rivals', link: '/events/lacs-rivals', image: '/lacs-rivals/logo.webp' },
-    { name: 'Eggdog Invitational', link: '/events/eggdog-invitational', image: '/eggdog-invitational/logo.webp' },
+    { name: 'Battle Of BC 7', link: '/events/bobc7', logo: '/bobc7/logo.webp', banner: '/bobc7/bobc7-4.webp' },
+    { name: 'Genesis X2', link: '/events/gx2', logo: '/gx2/logo.webp', banner: 'gx2/banner.webp' },
+    { name: 'LACS Rivals', link: '/events/lacs-rivals', logo: '/lacs-rivals/logo.webp', banner: 'lacs-rivals/banner.webp' },
+    { name: 'Eggdog Invitational', link: '/events/eggdog-invitational', logo: '/eggdog-invitational/logo.webp', banner: '/eggdog-invitational/banner.webp' },
 ]" />
 
 ![Brands Juna has worked with. Red bull, Xbox, The Yard, Nintendo, Warner Bros Games, Asus, Mogul Moves, The Streamer Awards, Team Liquid, EVO, Shopify Rebellion, Offbrand Games, Dome Productions, Bombee, Overactive Media, & Solotech.](/brands.webp)
