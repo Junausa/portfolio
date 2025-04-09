@@ -42,7 +42,7 @@ body {
 }
 
 img {
-    width: 100%;
+    max-width: 100%;
     height: auto;
 }
 
@@ -75,6 +75,15 @@ footer .row {
     display: flex;
     align-items: center;
     gap: .5em;
+}
+
+iframe {
+    border: 1px solid white;
+    border-radius: 8px;
+}
+
+.twitter-tweet {
+    margin: 0 auto;
 }
 
 #content {

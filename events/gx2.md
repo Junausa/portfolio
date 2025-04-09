@@ -13,18 +13,20 @@ headerImg: /gx2/banner.webp
 import ImageViewer from "../.vitepress/components/ImageViewer.vue";
 </script>
 
-Veniam elit laboris sint anim cupidatat ipsum sunt nisi exercitation. Lorem proident duis commodo reprehenderit adipisicing eu consequat exercitation est. Quis nisi ad excepteur laboris. Qui ea ut eu ex labore esse id aliquip. Incididunt proident ex sint veniam cillum cillum excepteur aliqua id nisi irure exercitation. Excepteur sit voluptate laborum commodo sit irure deserunt irure officia adipisicing. Reprehenderit eu proident aliqua quis nisi ad qui duis excepteur id est duis.
+- Managed 9 broadcasts and their crews (Maelstrom, ten/o, TampaNeverSleeps, Level1 TV) in the San Jose Convention Center to produce one of the largest renditions of this series in 2024 (100k viewers, 4.7k attendees, 50 crew). 
+- Resolved on-site issues with internet, logistics, and staging to ensure attendees, viewers, and crew experienced a seamless event experience.
+- Produced the Sunday finals shows in the San Jose Civic theater with Salil Gupta as director since 2022.
+- Coordinated two live giveaways for Intel during the 2023 finals show.
 
-Officia nostrud laborum reprehenderit ipsum veniam pariatur est fugiat proident labore. Aliquip consectetur duis nostrud proident commodo. Ad sit mollit sunt enim non nisi laboris anim fugiat Lorem anim aliqua.
+<ImageViewer :images="[
+    { url: '/gx2/gx-1.jpg', alt: 'Genesis X in the San Jose Civic' },
+    { url: '/gx2/gx-2.jpg', alt: 'Genesis X2 in the San Jose Civic' },
+    { url: '/gx2/gx-3.jpg', alt: 'Genesis X2 Theater Stage' },
+    { url: '/gx2/gx-4.jpg', alt: 'Genesis X2 Video Village' },
+    { url: '/gx2/gx-5.jpg', alt: 'Genesis X2 Staff' },
+    { url: '/gx2/gx-6.jpg', alt: 'Champion of Melee at Genesis X2' },
+]" />
 
----
+<br>
 
-<h2 style="margin-bottom: .5rem">Genesis X2 Theater</h2>
-
-<h3 style="margin-top: .5rem">Broadcast, Staffing, Run Of Show, Brand Activations, Interviews</h3>
-
-![Wide shot of the Genesis X2 Theater with a round array of seating all facing a stage with 2 players. Almost every seat is filled.](/gx2/theater.webp)
-
-Nisi quis irure ipsum et cillum est dolor minim. Cillum eiusmod sunt nostrud nisi Lorem duis aute cupidatat labore deserunt dolore aliqua laboris eu. Minim irure occaecat adipisicing ad. Reprehenderit dolore ut incididunt duis ea ullamco fugiat. Id excepteur excepteur deserunt tempor sint id enim consectetur aliquip commodo labore. Officia est qui sit esse ipsum nisi labore ad.
-
-Velit duis aliqua incididunt est ad ipsum esse et consequat irure cupidatat. Cillum amet aliquip cupidatat esse consectetur anim pariatur qui laboris. Est qui aute ut ipsum ad. Sunt magna culpa deserunt deserunt eu dolor labore consectetur reprehenderit nostrud voluptate elit veniam. Velit aute do non ex culpa est pariatur ut aute.
+<iframe style="aspect-ratio: 16 / 9;" width="100%" height="auto" src="https://www.youtube.com/embed/mp26oYsAUj0?si=Aiz9DESJ1dq9i3_C" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

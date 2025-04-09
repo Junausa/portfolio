@@ -13,13 +13,18 @@ headerImg: /lacs-rivals/banner.webp
 import ImageViewer from "../.vitepress/components/ImageViewer.vue";
 </script>
 
+- Collaborated with [offbrand.gg](https://offbrand.gg/) from start to finish to build a two-day invitational tournament (30 participants) for the launch of their new game, Rivals of Aether II. Built the broadcast budget.
+- Briefing and live cues for on-screen talent such as Ludwig, The Yard, and Alpharad. Wrote the run of show which included tracking and executing all sponsor activations.
+- Lead external communications and internal project administration.
+
 <ImageViewer :images="[
-    { url: '/lacs-rivals/broadcast.webp', alt: 'Picture of the broadcast room. Featuring 2 rows of tables and numerous stations for each crew member. About 7 crew members total.' },
-    { url: '/lacs-rivals/host-stage.webp', alt: 'Picture facing the hosts, or casters, of the show. 4 of them are sitting on a couch watching a live feed of the players competeting in the other room. Numerous cameras are pointed at the hosts.' },
-    { url: '/lacs-rivals/player-stage.webp', alt: 'Wide shot of the player stage area. In the foreground features 2 players current facing each other on stream. In the background is a practice area with about 4 visible gaming stations' },
-    { url: '/lacs-rivals/crew.webp', alt: 'Picture of the crew taken after the show. 22 people in total.' },
+    { url: '/lacs-rivals/lacs-1.jpg', alt: 'Ludwig Reveals Orcane Bidet' },
+    { url: '/lacs-rivals/lacs-2.jpg', alt: 'The Yard at LACS Rivals' },
+    { url: '/lacs-rivals/lacs-3.jpg', alt: 'Video Village at LACS Rivals' },
+    { url: '/lacs-rivals/lacs-4.jpg', alt: 'Gamers Gaming' },
+    { url: '/lacs-rivals/lacs-5.jpg', alt: 'LACS Rivals Player Stage' },
 ]" />
 
-Laborum sint qui aute excepteur quis amet irure. Fugiat tempor voluptate et anim cupidatat ex anim laborum. Cillum consequat magna in qui ex in nisi esse ipsum. Magna dolore ipsum do proident aliqua veniam nisi cillum proident eu et. Aliqua magna eiusmod do pariatur sint proident enim reprehenderit enim laboris voluptate duis consectetur. Est incididunt anim tempor commodo nisi ipsum labore enim ut tempor voluptate occaecat.
+<br>
 
-Voluptate laborum veniam magna qui eiusmod pariatur commodo elit do eu dolor consectetur ea consequat. Anim eu deserunt ullamco exercitation elit non aliqua esse nisi qui dolore. Ullamco ut ad sit deserunt dolor deserunt magna ut. Id tempor aliqua cillum proident pariatur nulla sunt laborum id ad id consequat deserunt officia. Qui adipisicing exercitation tempor adipisicing id ullamco. Elit cillum proident id adipisicing ipsum exercitation.
+<iframe style="aspect-ratio: 16 / 9;" width="100%" height="auto" src="https://www.youtube.com/embed/502msfSy2og?si=1O-WGKxbI7m610DZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

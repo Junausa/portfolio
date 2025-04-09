@@ -20,7 +20,6 @@ import { ArrowLeftCircle, ArrowRightCircle } from 'lucide-vue-next';
 import { PropType, ref } from 'vue';
 import { withBase } from 'vitepress';
 
-
 const props = defineProps({
     images: {
         type: Array as PropType<Array<{ url: string, alt?: string }>>,
@@ -45,7 +44,9 @@ function prevImage() {
     aspect-ratio: 16 / 9;
     background-color: rgba(255, 255, 255, .05);
     border-radius: 8px;
+    border: 1px solid white;
     position: relative;
+    overflow: hidden;
 }
 
 .viewer img {
