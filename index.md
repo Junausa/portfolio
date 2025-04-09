@@ -18,7 +18,7 @@ import EventList from ".vitepress/components/EventList.vue";
 
 Producing your winning moments since 2016. Building live events of all sizes–from invitational competitions with high-profile talent, to the largest open-bracket esports tournaments to exist. Roots in Midwest America and broadcasting platform fighting games, now I prefer to produce events and manage broadcast crews. Recently moved to Southern California. I started by creating a Smash Bros. club at my college and hosting events there. Eventually organized regionals in Chicago before moving up to majors at an international scale.
 
-Creating live shows in the gaming and esports space with [Maelstrom Entertainment](mse.gg).
+Creating live shows in the gaming and esports space with [Maelstrom Entertainment](https://mse.gg/).
 
 <p style="text-align: center; font-weight: 700; font-size: 1.2em">❖ CONTACT: <a href="mailto:juna@mse.gg">juna@mse.gg</a></p>
 
