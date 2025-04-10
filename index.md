@@ -32,8 +32,12 @@ import EventList from ".vitepress/components/EventList.vue";
 
 ## About me
 
-Producing your winning moments since 2016. Building live events of all sizes–from invitational competitions with high-profile talent, to the largest open-bracket esports tournaments to exist. Roots in Midwest America and broadcasting platform fighting games, now I prefer to produce events and manage broadcast crews. Recently moved to Southern California. I started by creating a Smash Bros. club at my college and hosting events there. Eventually organized regionals in Chicago before moving up to majors at an international scale.
+Producing your winning moments since 2016. I’m a live event producer and broadcast director with nearly a decade of experience creating standout moments in esports. I build shows that feel as good as they run—balancing structure and adaptability to serve players, fans, and everyone behind the scenes.
 
-Creating live shows in the gaming and esports space with [Maelstrom Entertainment](https://mse.gg/).
+I started by founding a Super Smash Bros. club in college and hosting local events on campus. That grew into organizing regional tournaments in Chicago, and eventually, producing majors at an international scale. Since then, I’ve worked across the full event lifecycle—from acquiring contracts and managing six-figure budgets to running show flow and coordinating on-air talent.
+
+My credits include Genesis, Battle of BC, LACS Rivals, Red Bull Kumite, Scuffed World Tour, Evo, Combo Breaker, and Team Liquid’s Race to World First, where I contributed as both an audio engineer and associate producer. I currently work as an Account Manager and Producer at [Maelstrom Entertainment](https://mse.gg/), and have previously led projects with Waveform, [Level1 TV](https://level1.tv/), and [Melee Everyday](https://twitter.com/meleeeveryday).
+
+Above all, I care about building events that are intentional, collaborative, and built to deliver under pressure.
 
 <p style="text-align: center; font-weight: 700; font-size: 1.2em">❖ CONTACT: <a href="mailto:juna@mse.gg">juna@mse.gg</a></p>
