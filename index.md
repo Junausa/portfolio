@@ -5,7 +5,7 @@ header: true
 headerIsLarge: true
 headerHasSocials: true
 header1: Juna
-header2: Event Producer
+header2: Broadcast Producer
 header3: Los Angeles, California
 headerImg: /site-header.webp
 headerPfp: /juna.webp
