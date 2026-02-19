@@ -28,7 +28,7 @@ import EventList from ".vitepress/components/EventList.vue";
     { name: 'Eggdog Invitational', link: '/events/eggdog-invitational', logo: '/eggdog-invitational/logo.webp', banner: '/eggdog-invitational/eggdog-6.webp' },
 ]" />
 
-![Brands Juna has worked with. Red bull, Xbox, The Yard, Nintendo, Warner Bros Games, Asus, Mogul Moves, The Streamer Awards, Team Liquid, EVO, Shopify Rebellion, Offbrand Games, Dome Productions, Bombee, Overactive Media, & Solotech.](/brands.webp)
+![Brands Juna has worked with. Red bull, Xbox, The Yard, Nintendo, Warner Bros Games, Asus, Mogul Moves, The Streamer Awards, Team Liquid, EVO, Shopify Rebellion, Offbrand Games, Dome Productions, Bombee, Overactive Media, & The Pokémon Company International.](/brands.webp)
 
 ## About me
 
